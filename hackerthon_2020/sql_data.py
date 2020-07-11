@@ -1,0 +1,10 @@
+from  model import sql
+print(sql.update("hakgwan_food",2,{     "person":9,     "place":"hakgwan_food",     "complexity":"Normal",     "time":"2020-07-02-04-24" }))
+print(sql.update("jingwan_food",2,{     "person":20,     "place":"jingwan_food",     "complexity":"Normal",     "time":"2020-07-02-04-24" }))
+print(sql.update("gunjawan_food",1,{     "person":2,     "place":"gunjawan_food",     "complexity":"Low",     "time":"2020-07-02-04-24" }))
+print(sql.update("ujung_food",1,{     "person":5,     "place":"ujung_food",     "complexity":"Low",     "time":"2020-07-02-04-24" } ))
+print(sql.update("hakgwan_cafe1",3,{     "person":30,     "place":"hakgwan_cafe1",     "complexity":"High",     "time":"2020-07-02-04-24" }))
+print(sql.update("twosome",3,{     "person":20,     "place":"twosome",     "complexity":"Normal",     "time":"2020-07-02-04-24" }))
+print(sql.update("cu_ai",1,{     "person":40,     "place":"cu_ai",     "complexity":"High",     "time":"2020-07-02-04-24" }))
+print(sql.update("collabo_lab",2,{     "person":10,     "place":"collabo_lab",     "complexity":"Low",     "time":"2020-07-02-04-24" }))
+print(sql.update("bigbear8",2,{     "person":10,     "place":"bigbear8",     "complexity":"Low",     "time":"2020-07-02-04-24" }))
