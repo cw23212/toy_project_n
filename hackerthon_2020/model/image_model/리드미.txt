@@ -1,0 +1,7 @@
+main_detect 에서 딕셔너리를 리턴하는 함수가 있고
+
+example 을 여시면 main_detect 를 import 하여 사용한 예시가있습니다
+
+반환된 딕셔너리를 서버에서 프론트로 전송하면 될거에요
+
+예시 이미지는 input_images_and_videos 폴더에 넣어주세여 
