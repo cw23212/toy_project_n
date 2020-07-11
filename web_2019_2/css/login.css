@@ -1,0 +1,71 @@
+span, form{
+    display: inline-block;
+}
+
+form{
+    width: 400px;
+    position: absolute;
+    left: calc(50% - 200px);
+    top: 250px;
+}
+
+.title{
+    width: 500px;
+    color: #900;
+    font: 80px dohyeon;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 100px;
+}
+
+input{
+    background-color: #FFF;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder{
+    font: 25px factory;
+    color: #BFBFBF;
+    vertical-align: center;
+}
+
+form > .inputBox > .login{
+    width: 365px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font: 25px factory;
+    color: #000;
+}
+
+form > .inputBox{
+    background-color: #FFF;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    left: calc(50% - 200px);
+    margin-bottom: 10px;
+    border: 1px solid #F2F2F2;
+}
+
+form > .login_button{
+    background-color: #900;
+    width: 100%;
+    height: 60px;
+    color: #FFF;
+    font: 40px jua;
+    text-align: center;
+    vertical-align: center;
+    font-size: bold;
+    margin-top: 20px;
+}
+
+form > .login_button:hover{
+    cursor: pointer;
+}

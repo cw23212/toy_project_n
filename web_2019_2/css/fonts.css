@@ -1,0 +1,14 @@
+@font-face{
+    font-family: "dohyeon";
+    src: url("../fonts/BMDOHYEON_ttf.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "jua";
+    src: url("../fonts/BMJUA_ttf.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "factory";
+    src: url("../fonts/Typo_FactoryB.ttf") format("truetype");
+}
